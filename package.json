@@ -1,0 +1,20 @@
+{
+  "name": "mekanbul",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && concurrently \"cd ./Backend && npm install && npm start\"  \"cd ./frontend-main && npm install && npm run dev\"",
+    "license": "ISC",
+    "dependencies": {
+      "concurrently": "^8.2.2"
+    }
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "cor": "^0.0.0",
+    "cors": "^2.8.5"
+  }
+}
